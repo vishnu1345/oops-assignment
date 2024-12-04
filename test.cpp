@@ -28,31 +28,39 @@ using namespace std;
 // }
 
 
-class X{
-    static int i;
-    int k;
-    public:
-    void show(){
-        cout<<i<<endl;
-    }
-    void setk(int num){
-        k=num;
-    }
-    void display(){
-        cout<<k<<endl;
-    }
-};
+// class X{
+//     static int i;
+//     int k;
+//     public:
+//     void show(){
+//         cout<<i<<endl;
+//     }
+//     void setk(int num){
+//         k=num;
+//     }
+//     void display(){
+//         cout<<k<<endl;
+//     }
+// };
 
-int X::i = 10;
+// int X::i = 10;
 
-int main(){
-    X a,b;
-    a.show();
+// int main(){
+//     X a,b;
+//     a.show();
 
-    b.show();
+//     b.show();
 
-    a.setk(12);
-    a.display();
+//     a.setk(12);
+//     a.display();
 
-    b.display();
-}
+//     b.display();
+// }
+
+
+int main()
+{ int a=20, b=0;
+try{
+if(b==0) throw "hello"; }
+// cout<<"Hi"<<endl;
+catch(const char *x) { cout<<"Caught Exception"<<x<<endl; } }
